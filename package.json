@@ -13,6 +13,13 @@
     "build:theme": "gulp build",
     "clean": "rimraf lib && rimraf dist"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://github.com/hansinhu/loon-ui.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hansinhu/loon-ui/issues"
+  },
   "dependencies": {
     "vue": "^2.5.11",
     "vue-router": "^3.0.1"
