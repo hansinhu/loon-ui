@@ -85,7 +85,7 @@ module.exports = merge(entry, {
   resolve: {
     alias: {
       'vue$': 'vue/dist/vue.esm.js',
-      // '@': path.join(__dirname, '..', 'src')
+      'loon-ui': path.resolve(__dirname, './')
     },
     extensions: ['*', '.js', '.vue', '.json']
   },

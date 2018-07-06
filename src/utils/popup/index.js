@@ -1,8 +1,8 @@
 import Vue from 'vue';
-import merge from '../merge';
-import PopupManager from './popup-manager';
-import getScrollBarWidth from '../scrollbar-width';
-import { getStyle, addClass, removeClass, hasClass } from '../dom';
+import merge from 'loon-ui/src/utils/merge';
+import PopupManager from 'loon-ui/src/utils/popup/popup-manager';
+import getScrollBarWidth from 'loon-ui/src/utils/scrollbar-width';
+import { getStyle, addClass, removeClass, hasClass } from 'loon-ui/src/utils/dom';
 
 let idSeed = 1;
 
