@@ -22,13 +22,13 @@
   </span>
 </template>
 <script>
-import Popper from 'loon-ui/src/utils/vue-popper';
-import { on, off } from 'loon-ui/src/utils/dom';
-import { addClass, removeClass } from 'loon-ui/src/utils/dom';
-import { generateId } from 'loon-ui/src/utils/util';
+import Popper from '../../../utils/vue-popper';
+import { on, off } from '../../../utils/dom';
+import { addClass, removeClass } from '../../../utils/dom';
+import { generateId } from '../../../utils/util';
 
 export default {
-  name: 'ElPopover',
+  name: 'LnPopover',
 
   mixins: [Popper],
 
