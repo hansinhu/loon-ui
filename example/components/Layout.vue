@@ -8,7 +8,7 @@
     <div class="lay-body">
       <div class="page-component__scroll el-scrollbar">
         <div class="el-scrollbar__wrap el-scrollbar__wrap--hidden-default">
-          <div class="page-component">
+          <div class="page-component container">
             <div class="page-component__nav el-scrollbar">
               <ul>
                 <li class="page-menu_item" v-for="(item, i) in itemList" :key="i">
@@ -26,7 +26,7 @@
       </div>
     </div>
   </div>
-  
+
 </template>
 
 <script>
@@ -88,11 +88,7 @@ header{
   height: 100%;
 }
 .page-component{
-  box-sizing: border-box;
   height: 100%;
-  padding: 0;
-  width: 1140px;
-  margin: 0 auto;
 }
 .page-component .page-component__nav {
   width: 240px;
